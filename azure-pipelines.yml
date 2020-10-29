@@ -43,7 +43,7 @@ steps:
         Set-Location "./Tests"
         $Edition = $PSVersionTable.PSEdition
         Invoke-Pester -CodeCoverage ../P*/*.ps1 -Script @{Path = "./*.tests.ps1"} -OutputFile "Test-$Edition-Results.xml" -OutputFormat NUnitXML -CodeCoverageOutputFile "coverage-$Edition-results.xml"
-
+      azurePowerShellVersion: LatestVersion
   - task: PublishTestResults@2
     displayName: "Publish Test Results **/Test*Results.xml"
     inputs:
