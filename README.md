@@ -1,5 +1,7 @@
 # Aadder
 
+[![Build Status](https://bzzztio.visualstudio.com/Aadder/_apis/build/status/RichieBzzzt.Aadder?branchName=main)](https://bzzztio.visualstudio.com/Aadder/_build/latest?definitionId=47&branchName=main)
+
 Aadder is to be used in an Azure DevOps pipeline that uses Azure PowerShell tasks.
 
 ## How To
