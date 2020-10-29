@@ -1,6 +1,6 @@
 # Aadder
 
-AAdder is to be used in an Azure DevOps pipeline that uses Azure PowerShell tasks.
+Aadder is to be used in an Azure DevOps pipeline that uses Azure PowerShell tasks.
 
 ## How To
 
