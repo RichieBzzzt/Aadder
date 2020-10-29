@@ -1,4 +1,4 @@
-Function Get-aadderContext {
+Function Get-Aadder {
     [CmdletBinding()]
     param (
         [Parameter()]
