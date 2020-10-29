@@ -1,4 +1,4 @@
-Function Get-Aadder {
+Function Connect-Aadder {
     [CmdletBinding()]
     param (
         [Parameter()]
